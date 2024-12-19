@@ -33,7 +33,7 @@
   - **Camada Densa**: Camada de saída que produz a previsão final.
 
 - ### Compilação do Modelo
-  O modelo foi compilado usando o otimizador Adam e a função de perda de erro quadrático médio (mean_squared_error). A métrica de   avaliação utilizada foi a precisão (accuracy).
+  O modelo foi compilado usando o otimizador Adam e a função de perda de erro quadrático médio (mean_squared_error). A métrica de avaliação utilizada foi a precisão (accuracy).
 
 - ### Treinamento do Modelo
   O modelo foi treinado por aproximadamente 100 épocas com um lote (batch) igual a 200. Os dados de treinamento e validação foram fornecidos durante o treinamento para monitorar o desempenho do modelo ao longo do tempo. Além disso, foi utilizado um callback de Early Stopping para interromper o treinamento se a perda não melhorasse após 10 épocas.

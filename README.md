@@ -26,7 +26,7 @@
 
 ## Entidades
 - ### Rede Neural
-  A arquitetura da rede neural utilizada consiste em uma sequência de camadas que incluem uma camada de Embedding seguida por três camadas LSTM e uma camada densa de saída.
+  A arquitetura da rede neural utilizada consiste em uma sequência de camadas que incluem uma camada de Embedding seguida por três camadas LSTM e uma camada dense de saída.
 
   - **Camada de Embedding**: Camada de entrada que mapeia os números inteiros de entrada (valores entre 0 e 100) para vetores de tamanho 64.
   - **Camadas LSTM**: Três camadas LSTM com 64 unidades cada, configuradas para retornar sequências intercalares.
